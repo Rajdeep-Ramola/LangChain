@@ -1,0 +1,38 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env/
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE Settings (VS Code) ---
+.vscode/
+*.code-workspace
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Vector Store / Local Databases ---
+chroma_db/
+faiss_index/
+lancedb/
+*.pkl
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
